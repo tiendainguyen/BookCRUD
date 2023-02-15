@@ -3,7 +3,6 @@ package com.book.service.impl;
 import com.book.dto.BookDTO;
 import com.book.entity.Book;
 import com.book.exception.NotFoundException;
-import com.book.model.BookResponse;
 import com.book.repository.BookRepository;
 import com.book.service.BookService;
 import org.springframework.beans.BeanUtils;

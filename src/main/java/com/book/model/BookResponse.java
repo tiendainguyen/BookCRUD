@@ -12,10 +12,10 @@ public class BookResponse {
     private int status;
     private String timestamp;
     private Object data;
-    public static BookResponse of(int status, Object data){
-        return BookResponse.of(status, DateUtils.getCurrenDateTimeStr(), data);
+    public static AuthResponse of(int status, Object data){
+        return AuthResponse.of(status, DateUtils.getCurrenDateTimeStr(), data);
     }
-    public static BookResponse of(int status){
-        return BookResponse.of(status, DateUtils.getCurrenDateTimeStr());
+    public static AuthResponse of(int status){
+        return AuthResponse.of(status, DateUtils.getCurrenDateTimeStr());
     }
 }
